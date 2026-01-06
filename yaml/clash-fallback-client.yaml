@@ -7,7 +7,7 @@
 proxy-providers:
 
   一分机场:
-    url: "https://www.yfjc.xyz/api/v1/client/subscribe?token=9b8eda292e3e1ed2da324ef3f71c042e"  
+    url: "https://www.yfjc.xyz/api/v1/client/subscribe?token=9b8eda292e3e1ed2da324ef3f71c042e779"  
     type: http
     interval: 86400
     health-check:
@@ -18,7 +18,7 @@ proxy-providers:
     proxy: 直连
     
   硅谷云:
-    url: "https://fqq-nabaidu.cn-huoshancc.poly-gf.com/s/01995d1a5adcef19daaa15b5e258a45b"  
+    url: "https://fqq-nabaidu.cn-huoshancc.poly-gf.com/s/01995d1a5adcef19daaa15b5e258a45b790"  
     type: http
     interval: 86400
     health-check:
@@ -484,3 +484,4 @@ rule-providers:
   Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
   Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
 # GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
