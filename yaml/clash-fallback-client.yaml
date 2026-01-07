@@ -18,7 +18,7 @@ proxy-providers:
     proxy: 直连
     
   硅谷云:
-    url: "https://fqq-nabaidu.cn-huoshancc.poly-gf.com/s/01995d1a5adcef19daaa15b5e258a45b790"  
+    url: "https://fqq-nabaidu.cn-huoshancc.poly-gf.com/s/01995d1a5adcef19daaa15b5e258a45b780"  
     type: http
     interval: 86400
     health-check:
@@ -359,8 +359,10 @@ proxy-groups:
 rules:
   - DOMAIN-SUFFIX,chasenshipping.com,国内
   - DOMAIN-KEYWORD,chasenshipping,国内
+  - DOMAIN-KEYWORD,oksnl.com,国内
   - DOMAIN-SUFFIX,coopaa.com,国内
   - DOMAIN-KEYWORD,duckbillscm,国内
+  - DOMAIN-KEYWORD,aucma,国内
   - DOMAIN-SUFFIX,hb56.com,国内
   - DOMAIN-SUFFIX,gdtspace.com,国内 
   - DOMAIN-KEYWORD,opendoor,Meta AI
@@ -484,4 +486,3 @@ rule-providers:
   Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
   Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
 # GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
-
